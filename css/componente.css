@@ -98,3 +98,19 @@ button:active {
 .botonCerrar:hover {
     background-color: #eee;
 }
+
+#barraCarga {
+    width: 500px;
+    height: 25px;
+    margin: 20px auto 10px;
+    background-color: #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#progreso {
+    width: 0%;
+    height: 100%;
+    background-color: #333;
+    border-radius: 15px;
+}
